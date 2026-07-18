@@ -1,0 +1,19 @@
+# regenerable / possibly copyright-derived: do not commit
+mangled/
+*-explorer.html
+__pycache__/
+*.pyc
+
+# local design reference screenshots (binsider/btop/radare2)
+binsider-*.png
+btop-*.png
+radare2-*.png
+
+# specimens/library/ -- real-world (copyrighted) collection; it lives in the
+# offline museum, never in this repo. ignored here as a safeguard.
+specimens/library/
+
+# copyrighted / real-world material lives only in the offline museum, never here.
+# everything in this repo is synthesized by the generators.
+copyrighted/
+internal_docs/

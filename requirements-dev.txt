@@ -1,0 +1,7 @@
+# acidcat-playground dev/TUI dependencies
+textual>=8.0
+# the engine (was resolved via a sibling ../acidcat checkout on sys.path):
+acidcat>=0.45.0
+rich>=14.0
+# optional: the differential oracle (LABS tab) compares against mutagen
+mutagen
